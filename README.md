@@ -97,6 +97,9 @@ To build a fast, scalable, and user-friendly restaurant system where:
 
 ```
 
+## 📂 Project Structure
+
+```bash
 Online-Food-Ordering-System/
 │
 ├── action.php
@@ -130,6 +133,7 @@ Online-Food-Ordering-System/
 ├── submit_reviews.php
 ├── update_cart_quantity.php
 └── restaurant.sql
+```
 
 ```
 
