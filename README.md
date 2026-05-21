@@ -1,63 +1,102 @@
-🍽️ Online Food Ordering System (Restaurant)
+Your README is already good, but it looks **unstyled and raw** because Markdown formatting is missing structure (headings, spacing, code blocks, emojis organization).
 
-A full-stack web application for restaurant management and online food ordering built with PHP + MySQL. This system allows users to browse menus, manage cart, place orders, submit reviews, and reserve tables while giving admins full control over operations.
+Here is a **clean, professional, GitHub-ready version** of your README 👇
 
-🚀 Live Project Overview
+---
+
+```md
+# 🍽️ Online Food Ordering System (Restaurant)
+
+A full-stack web application for restaurant management and online food ordering built with **PHP + MySQL**.  
+This system allows users to browse menus, manage cart, place orders, submit reviews, and reserve tables while giving admins full control over operations.
+
+---
+
+# 🚀 Live Project Overview
 
 This project is a complete restaurant automation system including:
 
-Food ordering system
-Cart management
-Order processing
-Reservation system
-User authentication
-Review system
-📌 Table of Contents
-About Project
-Features
-File Structure
-System Workflow
-Installation
-Database Setup
-How to Run
-Screenshots
-Future Improvements
-Author
-📖 About The Project
+- 🍕 Food ordering system  
+- 🛒 Cart management  
+- 📦 Order processing  
+- 🪑 Reservation system  
+- 🔐 User authentication  
+- ⭐ Review system  
 
-The Online Food Ordering System is designed to digitalize restaurant operations. It removes manual order handling and allows customers to interact with the restaurant online.
+---
 
-🔥 Main Goal:
+# 📌 Table of Contents
+
+- About Project  
+- Features  
+- File Structure  
+- System Workflow  
+- Installation  
+- Database Setup  
+- How to Run  
+- Future Improvements  
+- Author  
+
+---
+
+# 📖 About The Project
+
+The **Online Food Ordering System** is designed to digitalize restaurant operations. It removes manual order handling and allows customers to interact with the restaurant online.
+
+### 🔥 Main Goal
 
 To build a fast, scalable, and user-friendly restaurant system where:
 
-Customers can order food easily
-Admin can manage everything in one place
-✨ Features
-👤 User Features
-User registration & login
-Browse food menu
-Add items to cart
-Update cart quantity
-Remove items from cart
-Place orders
-Order confirmation system
-Order history
-Table reservation
-Profile management
-Submit food reviews
-🍽️ Food Ordering System
-Dynamic menu display
-Cart system
-Order processing workflow
-Order confirmation page
-⭐ Review System
-Submit ratings & feedback
-View order-based reviews
-🪑 Reservation System
-Book tables online
-Manage reservations
-🧩 File Structure (Your Project)
+- Customers can order food easily  
+- Admin can manage everything in one place  
+
+---
+
+# ✨ Features
+
+## 👤 User Features
+
+- User registration & login  
+- Browse food menu  
+- Add items to cart  
+- Update cart quantity  
+- Remove items from cart  
+- Place orders  
+- Order confirmation system  
+- Order history  
+- Table reservation  
+- Profile management  
+- Submit food reviews  
+
+---
+
+## 🍽️ Food Ordering System
+
+- Dynamic menu display  
+- Cart system  
+- Order processing workflow  
+- Order confirmation page  
+
+---
+
+## ⭐ Review System
+
+- Submit ratings & feedback  
+- View order-based reviews  
+
+---
+
+## 🪑 Reservation System
+
+- Book tables online  
+- Manage reservations  
+
+---
+
+# 🧩 File Structure
+
+```
+
 Online-Food-Ordering-System/
 │
 ├── action.php
@@ -91,118 +130,123 @@ Online-Food-Ordering-System/
 ├── submit_reviews.php
 ├── update_cart_quantity.php
 └── restaurant.sql
-🔄 System Workflow
-1. User Flow
+
+```
+
+---
+
+# 🔄 System Workflow
+
+## 👤 User Flow
+
+```
+
 Register → Login → Browse Menu → Add to Cart → Checkout → Order Confirmed
-2. Order Flow
-Cart → process_order.php → orders.php → admin processing → completion
-3. Review Flow
+
+```
+
+## 📦 Order Flow
+
+```
+
+Cart → process_order.php → orders.php → Admin Processing → Completion
+
+```
+
+## ⭐ Review Flow
+
+```
+
 Delivered Order → order_review.php → submit_reviews.php
-🛠️ Technology Stack
-PHP (Backend)
-MySQL (Database)
-HTML5
-CSS3
-JavaScript
-Bootstrap (optional UI support)
-AJAX (for cart/order updates)
-⚙️ Installation Guide
-1️⃣ Clone Project
+
+````
+
+---
+
+# 🛠️ Technology Stack
+
+- PHP (Backend)
+- MySQL (Database)
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap (optional)
+- AJAX
+
+---
+
+# ⚙️ Installation Guide
+
+## 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/your-username/online-food-ordering-system.git
-2️⃣ Move to XAMPP
+````
+
+---
+
+## 2️⃣ Move Project
 
 Move folder to:
 
+```
 C:/xampp/htdocs/
-3️⃣ Start Server
+```
+
+---
+
+## 3️⃣ Start Server
 
 Open XAMPP:
 
-Start Apache
-Start MySQL
-4️⃣ Create Database
+* Start Apache
+* Start MySQL
 
-Open phpMyAdmin:
+---
 
-Database name: restaurant
+## 4️⃣ Create Database
 
-Import:
+* Database name: `restaurant`
+* Import file: `restaurant.sql`
 
-restaurant.sql
-5️⃣ Run Project
+---
 
-Open browser:
+## 5️⃣ Run Project
 
+```
 http://localhost/your-project-folder/
-🗄️ Database Info
-Database: restaurant
-File: restaurant.sql
-Contains:
-users
-orders
-cart
-reviews
-reservations
-🔐 Core Modules Explained
-🛒 Cart System
+```
 
-Files:
+---
 
-add_to_cart.php
-cart.php
-update_cart_quantity.php
-delete_cart_item.php
-📦 Order System
+# 🚀 Future Improvements
 
-Files:
+* Admin dashboard panel
+* Online payment integration (Esewa / Khalti)
+* Real-time order tracking
+* Email/SMS notifications
+* React frontend upgrade
+* Mobile app version
+* API backend system
 
-process_order.php
-orders.php
-order_confirm.php
-cancel_order.php
-👤 Authentication
+---
 
-Files:
+# 👨‍💻 Author
 
-login.php
-dblogin.php
-dbregister.php
-logout.php
-⭐ Review System
+**Omprakash Gharti Magar**
 
-Files:
+GitHub: [https://github.com/ai-omprakash](https://github.com/ai-omprakash)
 
-order_review.php
-submit_reviews.php
-🪑 Reservation System
+---
 
-Files:
-
-reservations.php
-🎯 Key Highlights
-Clean modular PHP structure
-AJAX-based cart updates
-Secure login system
-Lightweight and fast
-Easy database integration
-Beginner-friendly architecture
-🚀 Future Improvements
-Admin dashboard panel
-Online payment integration (Esewa / Khalti)
-Real-time order tracking
-Email/SMS notifications
-API-based backend upgrade
-React frontend upgrade
-Mobile app version
-👨‍💻 Author
-
-Omprakash Gharti Magar
-
-GitHub: https://github.com/ai-omprakash
-
-⭐ Project Status
+# ⭐ Project Status
 
 ✔ Completed
 ✔ Functional
 ✔ Portfolio Ready
 ✔ Beginner-to-Mid Level Full Stack Project
+
+
+
+Just tell me 👍
+```
